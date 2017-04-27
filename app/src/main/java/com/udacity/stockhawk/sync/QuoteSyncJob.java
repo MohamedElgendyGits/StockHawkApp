@@ -87,7 +87,7 @@ public final class QuoteSyncJob {
 
 
                 // handle wrong stock names added by user
-                if(stock.getName() == null){
+                if(stock == null || stock.getName() == null){
                     PrefUtils.removeStock(context, symbol);
                     Intent dataUpdateFailedIntent = new Intent(ACTION_DATA_FAILED);
                     context.sendBroadcast(dataUpdateFailedIntent);
