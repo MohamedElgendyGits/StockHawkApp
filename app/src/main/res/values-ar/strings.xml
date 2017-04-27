@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dialog_title">أضف سهم</string>
+    <string name="dialog_hint">سهم (مثال GOOG)</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">أضف</string>
+
+    <string name="error_no_network">لا يوجد إتصال بالشبكة! الاسهم سوف تعرض بعدة عودة الإتصال</string>
+    <string name="error_no_stocks">لا يوجد أسهم لعرضها! أضفط علي + للإضافة سهم</string>
+
+
+    <string name="toast_stock_added_no_connectivity">تم إضافة %. سيتم التحديث عند عودة الإتصال</string>
+    <string name="toast_no_connectivity"> سيتم التحديث عند عودة الإتصال</string>
+    <string name="toast_invalid_stock_symbol">سهم غير موجود</string>
+
+    <!-- content description -->
+    <string name="float_button_content_description">أضف سهم</string>
+
+
+</resources>
